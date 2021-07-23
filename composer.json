@@ -1,3 +1,8 @@
 {
-    "name": "tygalive/twitterbot"
+    "name": "tygalive/twitterbot",
+    "autoload": {
+        "psr-4": {
+            "Twitterbot\\": "oo/autoload.php"
+        }
+    }
 }
